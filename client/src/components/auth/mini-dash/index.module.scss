@@ -1,0 +1,197 @@
+.cont{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2vw 3vw;
+
+  .Avatar{
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    // border: 3px solid #eece1a;
+
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .p{
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-top: -2vw;
+    letter-spacing: 1.5px;
+  }
+
+  .icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link{
+      color: black;
+      text-decoration: none;
+    }
+    
+    div{
+      display: flex;
+      color: black;
+      align-items: center;
+      flex-direction: column;
+
+      .icon{
+        width: 60px;
+        height: 60px;
+        padding: 1vw;
+        cursor: pointer;
+        border-radius: 50%;
+        background-color: #fff;
+      }
+
+      p{
+        color: #fff;
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 280px){
+  .cont{
+    padding: 6vw 11vw;
+
+    .Avatar{
+      width: 60px;
+      height: 60px;
+    }
+
+    .p{
+      font-size: 0.95em;
+      margin-top: -16vw;
+    }
+
+    .icons{
+
+      div{
+
+        .icon{
+          width: 40px;
+          height: 40px;
+          padding: 6px;
+        }
+
+        p{
+          font-size: 0.4em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 500px){
+  .cont{
+    padding: 5vw 9vw;
+
+    .Avatar{
+      width: 70px;
+      height: 70px;
+    }
+
+    .p{
+      font-size: 1em;
+      margin-top: -14vw;
+    }
+
+    .icons{
+
+      div{
+
+        .icon{
+          width: 45px;
+          height: 45px;
+          padding: 7px;
+        }
+
+        p{
+          font-size: 0.5em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px){
+  .cont{
+    padding: 4vw 7vw;
+
+    .Avatar{
+      width: 90px;
+      height: 90px;
+    }
+
+    .p{
+      font-size: 1.1em;
+      margin-top: -10vw;
+    }
+
+    .icons{
+
+      div{
+        
+        .icon{
+          width: 50px;
+          height: 50px;
+          padding: 8px;
+        }
+
+        p{
+          font-size: 0.6em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px){
+  .cont{
+    padding: 3vw 5vw;
+
+    .Avatar{
+      width: 100px;
+      height: 100px;
+    }
+
+    .p{
+      font-size: 1.2em;
+      margin-top: -4vw;
+    }
+
+    .icons{
+
+      div{
+
+        .icon{
+          width: 55px;
+          height: 55px;
+          padding: 10px;
+        }
+
+        p{
+          font-size: 0.7em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1171px) and (max-width: 1366px){
+  .cont{
+
+  }
+}

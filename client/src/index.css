@@ -1,0 +1,21 @@
+/* @import url('//db.onlinewebfonts.com/c/2fcb2e2415afca05633c3a8fd3c82768?family=Bauhaus+Md+BT');
+@import url('//db.onlinewebfonts.com/c/2fcb2e2415afca05633c3a8fd3c82768?family=Bauhaus+Bold+BT'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif, "Poppins", "Bauhaus Md BT", "Bauhaus Bold BT";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

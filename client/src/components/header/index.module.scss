@@ -1,0 +1,63 @@
+.cont{
+  width: 100%;
+  height: 100%;
+  padding: 0 5vw 5vw 0;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  perspective: 1000px;
+  justify-content: flex-end;
+  // background-color: pink;
+
+  &::after{
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    position: absolute;
+    background-image: url('/images/bookcover.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0, 100% 52%, 0 74%);
+    filter: blur(2px);
+  }
+}
+
+@media screen and (max-width: 280px){
+  .cont{
+    padding: 3vw;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 500px){
+  .cont{
+    padding: 5vw;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px){
+  .cont{
+    padding: 10vw;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px){
+  .cont{
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1171px){
+  
+}

@@ -1,0 +1,139 @@
+.cont{
+  top: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  .noneBox{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .mBox{
+    z-index: 3;
+    width: 22vw;
+    height: 27vw;
+    background-color: #fff;
+
+    .imgBox{
+      width: 100%;
+      height: 80%;
+      
+      img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .btnBox{
+      width: 100%;
+      height: 20%;
+      display: flex;
+      padding: 1vw 2vw;
+      align-items: center;
+      justify-content: space-between;
+
+      .dn { display: none; }
+
+      .cp { cursor: pointer; }
+    }
+  }
+}
+
+@media screen and (max-width: 280px){
+  .cont{
+
+    .mBox{
+      width: 60%;
+      height: 200px;
+
+      .btnBox{
+
+        .btnSize{
+          padding: 5px 0px;
+          font-size: 0.4em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 500px){
+  .cont{
+
+    .mBox{
+      width: 220px;
+      height: 280px;
+
+      .btnBox{
+
+        .btnSize{
+          font-size: 0.6em;
+        }
+      }      
+    }
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px){
+  .cont{
+
+    .mBox{
+      width: 260px;
+      height: 320px;
+
+      .btnBox{
+
+        .btnSize{
+          font-size: 0.7em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px){
+  .cont{
+
+    .mBox{
+      width: 290px;
+      height: 370px;
+
+      .btnBox{
+
+        .btnSize{
+          font-size: 0.8em;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1171px) and (max-width: 1366px){
+  .cont{
+
+    .mBox{
+
+      
+    }
+  }
+}
+
+@media screen and (min-width: 1367px){
+  .cont{
+
+    .mBox{
+
+      
+    }
+  }
+}

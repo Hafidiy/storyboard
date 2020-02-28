@@ -1,0 +1,72 @@
+header{
+  width: 100%;
+  // height: 80px;
+  display: flex;
+  padding: 20px 60px;
+  align-items: center;
+  background-color: #666;
+
+  .swht{
+    width: 40px;
+    height: 40px;
+    color: black;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  header {
+    padding: 6px 12px;
+
+    .swht{
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+
+@media screen and (min-width: 281px) and (max-width: 500px) {
+  header {
+    padding: 8px 20px;
+
+    .swht{
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  header {
+    padding: 10px 30px;
+
+    .swht{
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  header {
+    // height: 100px;
+    padding: 15px 45px;
+
+    .swht{
+      width: 30px;
+      height: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 1171px) and (max-width: 1366px) {
+  header {
+    
+  }
+}
+
+@media screen and (min-width: 1367px) {
+  header {
+    
+  }
+}
